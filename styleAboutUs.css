@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav img{
+    margin: 15px;
+}
+
+
+header{
+    background-image: url(./Pictures/aboutUs.png);
+    height: 300px;
+    position: relative;
+}
+
+.aboutUs{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.aboutUs h1{
+    font-family: 'Kaisei Decol', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+
+    color: #FFFFFF; 
+}
+
+.desc{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    background: white;
+    margin: 5%;
+}
+
+.aboutUsImg{
+    width: 75%;
+    height: 150%;
+    overflow: hidden;
+}
+
+.aboutUsImg img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutUs-desc{
+    position: relative;
+    margin-left: -100px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.aboutUs-desc h1{
+    margin-bottom: 50px;
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.aboutUs-desc p{
+
+    text-align: left;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.ourStory{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    background: white;
+    margin: 5%;
+}
+
+.ourStoryImg{
+    width: 75%;
+    height: 140%;
+    overflow: hidden;
+}
+
+.ourStoryImg img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ourStory-desc{
+    position: relative;
+    margin-left: -100px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.ourStory-desc h1{
+    margin-bottom: 50px;
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.ourStory-desc p{
+
+    text-align: left;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 250px;
+    background-color: black;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links ul{
+    padding: 5px;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    margin: auto;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    transition: all .25s;
+    cursor: pointer;
+}
+
+.social-items img{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+}
+
+.social-items a:hover{
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    background-color: black;
+    box-shadow: 5px 5px 5px -2px;
+}
+

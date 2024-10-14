@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav img{
+    margin: 15px;
+}
+
+
+header{
+    background-image: url(./Pictures/aboutUs.png);
+    height: 300px;
+    position: relative;
+}
+
+.facilities-nav{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.facilities-nav h1{
+    font-family: 'Kaisei Decol', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+
+    color: #FFFFFF; 
+}
+
+.pool{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    background: white;
+    margin: 5%;
+}
+
+.poolImg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.poolImg img{
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.poolDesc{
+    position: relative;
+    margin-left: -100px;
+    text-align: center;
+    width: 100%;
+    background-color: white;   
+}
+
+.poolDesc h1{
+    margin-bottom: 50px;
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.poolDesc p{
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.bar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    background: white;
+    margin: 5%;
+}
+
+.barImg{
+    margin-left: 70px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.barImg img{
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.barDesc{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: white;   
+}
+
+.barDesc h1{
+    margin-bottom: 50px;
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.barDesc p{
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.spa{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    background: white;
+    margin: 5%;
+}
+
+.spaImg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.spaImg img{
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.spaDesc{
+    position: relative;
+    margin-left: -100px;
+    text-align: center;
+    width: 100%;
+    background-color: white;   
+}
+
+.spaDesc h1{
+    margin-bottom: 50px;
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.spaDesc p{
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.gym{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    background: white;
+    margin: 5%;
+}
+
+.gymImg{
+    margin-left: 70px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gymImg img{
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.gymDesc{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: white;   
+}
+
+.gymDesc h1{
+    margin-bottom: 50px;
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.gymDesc p{
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.restaurant{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    background: white;
+    margin: 5%;
+}
+
+.restaurantImg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.restaurantImg img{
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.restaurantDesc{
+    position: relative;
+    margin-left: -100px;
+    text-align: center;
+    width: 100%;
+    background-color: white;   
+}
+
+.restaurantDesc h1{
+    margin-bottom: 50px;
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.restaurantDesc p{
+    
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+    background-color: black;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links ul{
+    padding: 5px;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    margin: auto;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    transition: all .25s;
+    cursor: pointer;
+}
+
+.social-items img{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+}
+
+.social-items a:hover{
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    background-color: black;
+    box-shadow: 5px 5px 5px -2px;
+}

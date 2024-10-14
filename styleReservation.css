@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.title h1{
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+
+    color: #000000;
+}
+
+body{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form{
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 15px 150px 40px;
+    box-shadow: 0px 10px 15px -7px;
+    background: white;
+    margin: 4% auto;
+    border-radius: 40px;
+    font-family: 'Literata';
+
+}
+
+.box{
+    margin: 15px;
+    position: relative;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.619); ;
+}
+
+.box input{
+    width: 100%;
+    padding: 0 5px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline:none;
+    color: black;
+    text-decoration: none;
+}
+
+.box label{
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: black;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box span::before{
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #003C83;
+    transition: .5s;
+}
+
+.box input:focus ~ label,
+.box input:valid ~ label{
+    top: -5px;
+    color: #003C83;
+}
+
+.box input:focus ~ span::before,
+.box input:valid ~ span::before{
+    width: 100%;
+}
+
+
+
+.room{
+    margin: 15px;
+    position: relative;
+}
+
+.room select{
+    width: 100%;
+    height: 6vh;
+    margin: 12px 0 0 0;
+    border-radius: 5px;
+    font-family: 'Literata';
+    background-color: #003C83;
+    color: white;
+}
+
+.form-inline label,.form-inline input{
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+
+
+.form-inline input[type="radio"]{
+    accent-color: #003C83;
+
+}
+
+
+input[type="submit"]{
+    background-color: #003C83;
+    margin-top: 10px;
+    cursor: pointer;
+    border: solid rgba(128, 128, 128, 0.733);
+    border-radius: 3px;
+    outline:none;
+    width: 40%;
+    margin-left: 30%;
+    padding: 8px 40px 7px 35px;
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+
+
+}
+
+.submit:hover{
+    background: whitesmoke;
+    color: black;
+    border: #003C83 solid;
+}
+input[type="submit"]:hover{
+    border-color: #003C83;
+    transition: 0.5s;
+}
+
+
+

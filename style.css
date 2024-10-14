@@ -1,0 +1,645 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav img{
+    margin: 15px;
+}
+
+header{
+    background-image: url(./Pictures/home.png);
+    height: 700px;
+    position: relative;
+}
+nav{
+    
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px;
+    cursor: pointer;
+    font-family: 'Kaisei Decol', serif;
+    padding-left: 50px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: gray;
+    transition: 1s;
+}
+
+.book a{
+    text-decoration: none;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.422);
+    color: white;   
+
+    padding: 25px;  
+    padding-left: 100px;
+    padding-right: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+
+}
+
+.book a:hover{
+    border-radius: 10px;
+    background-color: rgb(41, 41, 39);
+    transition: 0.5s;
+}
+
+.content{
+    text-align: center;
+    position: relative;
+}
+.content .holiday{
+    font-family: 'Literata', serif;
+
+
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+}
+
+.content .special{
+
+ 
+
+
+    font-family: 'Kaisei Decol', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #000000;
+
+
+}
+
+.promo{
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    box-shadow: 0px 10px 15px -7px;
+    background: white;
+    margin: 10%;
+}
+
+.promoimg{
+    width:40%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.promoimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.desc{
+    position: relative;
+    margin-left: 50px;
+    text-align: center;
+    width: 70%;
+    background-color: white;
+}
+
+.desc h1{
+    top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+    
+}
+
+
+
+.desc .every{
+
+    
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
+
+    color: #000000;
+}
+
+.desc .alco{
+
+    
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+   
+    text-decoration: underline;
+
+    color: #000000;
+}
+
+.desc .at{
+
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+
+    
+
+    color: #000000;
+}
+
+.desc a{
+    text-decoration: none;
+    border-style: solid;
+    color: #000000;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    
+
+}
+
+.desc a:hover{
+    background-color: rgba(0, 0, 0, 0.324);
+    transition: 0.5s;
+}
+
+.room{
+    position: relative;
+}
+
+.room h1{
+    text-align: center;
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+
+    color: #000000;
+    
+}
+
+.deluxeTwin{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    background: white;
+    margin: 10%;
+}
+
+.deluxeTwinImg{
+    width:70%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.deluxeTwinImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.deluxeTwin-desc{
+    position: relative;
+    margin-left: 50px;
+    text-align: center;
+    width: 70%;
+    background-color: white;
+}
+
+.deluxeTwin-desc h1{
+    top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+    
+    
+}
+
+
+
+.deluxeTwin-desc .best{
+
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
+
+    color: #000000;
+}
+
+.deluxeTwin-desc .from{
+
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
+
+    color: #000000;
+}
+
+.deluxeTwin-desc .to{
+
+
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
+
+    color: #000000;
+}
+
+.deluxeTwin-desc a{
+    text-decoration: none;
+    border-style: solid;
+    color: #000000;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.deluxeTwin-desc a:hover{
+    color: rgba(53, 53, 53, 0.776);
+    transition: 0.5s;
+}
+
+
+.master{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    background: white;
+    margin: 10%;
+}
+
+.masterImg{
+    width:70%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.masterImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.master-desc{
+    position: relative;
+    margin-left: 50px;
+    text-align: center;
+    width: 70%;
+    background-color: white;
+}
+
+.master-desc h1{
+    top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+    
+    
+}
+
+
+
+.master-desc .best{
+
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
+
+    color: #000000;
+}
+
+.master-desc .from{
+
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
+
+    color: #000000;
+}
+
+.master-desc .to{
+
+
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
+
+    color: #000000;
+}
+
+.master-desc a{
+    text-decoration: none;
+    border-style: solid;
+    color: #000000;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.master-desc a:hover{
+    color: rgba(53, 53, 53, 0.776);
+    transition: 0.5s;
+}
+.masterTwin{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    height: 500px;
+    padding: 40px;
+    background: white;
+    margin: 10%;
+}
+
+.masterTwinImg{
+    width:70%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.masterTwinImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.masterTwin-desc{
+    position: relative;
+    margin-left: 50px;
+    text-align: center;
+    width: 70%;
+    background-color: white;
+}
+
+.masterTwin-desc h1{
+    top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+    
+    
+}
+
+
+
+.masterTwin-desc .best{
+
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
+
+    color: #000000;
+}
+
+.masterTwin-desc .from{
+
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
+
+    color: #000000;
+}
+
+.masterTwin-desc .to{
+
+
+
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    
+
+    color: #000000;
+}
+
+.masterTwin-desc a{
+    text-decoration: none;
+    border-style: solid;
+    color: #000000;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.masterTwin-desc a:hover{
+    color: rgba(53, 53, 53, 0.776);
+    transition: 0.5s;
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links ul{
+    padding: 5px;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    margin: auto;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    transition: all .25s;
+    cursor: pointer;
+}
+
+.social-items img{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+}
+
+.social-items a:hover{
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    background-color: black;
+    box-shadow: 5px 5px 5px -2px;
+}   
+
+@media (min-aspect-ratio: 16/9){
+    .background{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .background{
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    nav ul{
+        width: 63%;
+    }
+}

@@ -1,0 +1,481 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav img{
+    margin: 15px;
+}
+
+header{
+    background-color: #003B83;
+    /* height: 700px; */
+    position: relative;
+}
+nav{
+    
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px;
+    cursor: pointer;
+    font-family: 'Kaisei Decol', serif;
+    padding-left: 50px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+nav ul li a{
+    color: white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: gray;
+    transition: 1s;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+
+.titleRoom{
+    text-align: center;
+}
+
+.titleRoom h1{
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+    margin-top: 20px;
+}
+
+.deluxe{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+
+    height: 800px;
+    padding: 40px;
+    background: white;
+    margin: 5%;
+}
+
+.deluxeImg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.deluxeImg img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.deluxe-desc{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    background-color: white;   
+}
+
+.deluxe-desc h3{
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    margin-bottom: 30px;
+
+    color: #000000;
+}
+
+.deluxe-desc p{
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.deluxePrice{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 30px;
+}
+
+.deluxePrice-desc h3{
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.deluxePrice-desc h2{
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.deluxePrice-desc h4{
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #A8A1A1;
+
+
+}
+
+.deluxeSelect{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.deluxeSelect a{
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    color: #FFFFFF;
+
+    background: #003B83;
+
+}
+
+.master{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+
+    height: 800px;
+    padding: 40px;
+    background: white;
+    margin: 5%;
+}
+
+.masterImg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.masterImg img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.master-desc{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    background-color: white;   
+}
+
+.master-desc h3{
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    margin-bottom: 30px;
+
+    color: #000000;
+}
+
+.master-desc p{
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.masterPrice{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 30px;
+}
+
+.masterPrice-desc h3{
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.masterPrice-desc h2{
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.masterPrice-desc h4{
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #A8A1A1;
+
+
+}
+
+.masterSelect{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.masterSelect a{
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    color: #FFFFFF;
+
+    background: #003B83;
+
+}
+
+.masterTwin{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+
+    height: 800px;
+    padding: 40px;
+    background: white;
+    margin: 5%;
+}
+
+.masterTwinImg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.masterTwinImg img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.masterTwin-desc{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    background-color: white;   
+}
+
+.masterTwin-desc h3{
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    margin-bottom: 30px;
+
+    color: #000000;
+}
+
+.masterTwin-desc p{
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #000000;
+}
+
+.masterTwinPrice{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 30px;
+}
+
+.masterTwinPrice-desc h3{
+
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.masterTwinPrice-desc h2{
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+
+    color: #000000;
+}
+
+.masterTwinPrice-desc h4{
+    font-family: 'Kaisei Decol';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #A8A1A1;
+
+
+}
+
+.masterTwinSelect{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.masterTwinSelect a{
+    font-family: 'Literata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    color: #FFFFFF;
+
+    background: #003B83;
+
+}
+
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+    background-color: black;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links ul{
+    padding: 5px;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    margin: auto;
+}
+
+.social-items{
+    list-style: none;
+}
+
+.social-items a{
+    transition: all .25s;
+    cursor: pointer;
+}
+
+.social-items img{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+}
+
+.social-items a:hover{
+    color: rgba(0, 0, 0, 0.589);
+}
+
+.outer-footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    background-color: black;
+    box-shadow: 5px 5px 5px -2px;
+}
+
